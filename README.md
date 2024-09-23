@@ -4,9 +4,9 @@ This repository contains the implementation of the FdF project, a 3D wireframe v
 
 # Overview
 The FdF (Fil de Fer) project is a graphics programming exercise where you create a 3D wireframe model from a given set of coordinates in a 2D file. The objective is to draw a 3D representation of the map using isometric projection, applying transformations such as translation, rotation, and scaling. The project helps in understanding the fundamentals of computer graphics and handling events in a graphical window.
-
+<div align="center">
 ![pic](https://github.com/mjorgecruz/42_fdf/blob/main/Screenshot%20from%202024-09-23%2016-02-32.png)
-
+</div>
 # Features
 
 ## Mandatory Part
