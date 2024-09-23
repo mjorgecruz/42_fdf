@@ -1,25 +1,24 @@
 # 42_fdf
 
-This repository contains the implementation of the FdF project, a 3D wireframe viewer. The project involves creating a graphical representation of a 3D landscape from a 2D file using the MiniLibX library. This README provides an overview of the project, including the features implemented in both the mandatory and bonus parts.
+This repository contains the implementation of the FdF project, a 3D wireframe viewer. The project involves creating a graphical representation of a 3D landscape from a 2D file using the MiniLibX library.
 
+# Overview
 The FdF (Fil de Fer) project is a graphics programming exercise where you create a 3D wireframe model from a given set of coordinates in a 2D file. The objective is to draw a 3D representation of the map using isometric projection, applying transformations such as translation, rotation, and scaling. The project helps in understanding the fundamentals of computer graphics and handling events in a graphical window.
-Features
-Mandatory Part
+# Features
 
-    2D to 3D Conversion:
-        Parse a given .fdf file containing 2D coordinates to create a 3D wireframe.
+## Mandatory Part
 
-    Isometric Projection:
-        Render the 3D wireframe using isometric projection to provide a clear view of the 3D landscape.
+- 2D to 3D Conversion:
+    - Parse a given .fdf file containing 2D coordinates to create a 3D wireframe.
+- Isometric Projection:
+    - Render the 3D wireframe using isometric projection to provide a clear view of the 3D landscape.
+- Basic Transformations:
+    - Implement translation, scaling, and rotation to manipulate the wireframe.
+- Graphics Window:
+    - Display the wireframe in a window using the MiniLibX library.
+    - Close the window and handle key events to exit the program gracefully.
 
-    Basic Transformations:
-        Implement translation, scaling, and rotation to manipulate the wireframe.
-
-    Graphics Window:
-        Display the wireframe in a window using the MiniLibX library.
-        Close the window and handle key events to exit the program gracefully.
-
-Bonus Part
+## Bonus Part
 
     Additional Projections:
         Implement other projection modes such as parallel and top-down projections.
