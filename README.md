@@ -12,32 +12,22 @@ The FdF (Fil de Fer) project is a graphics programming exercise where you create
     - Parse a given .fdf file containing 2D coordinates to create a 3D wireframe.
 - Isometric Projection:
     - Render the 3D wireframe using isometric projection to provide a clear view of the 3D landscape.
-- Basic Transformations:
-    - Implement translation, scaling, and rotation to manipulate the wireframe.
 - Graphics Window:
     - Display the wireframe in a window using the MiniLibX library.
     - Close the window and handle key events to exit the program gracefully.
+    - Apply color gradients based on altitude to enhance the visual representation of the landscape.
 
 ## Bonus Part
 
-    Additional Projections:
-        Implement other projection modes such as parallel and top-down projections.
+- Additional Projections:
+    - Implement other projection modes such as parallel and top-down projections.
+- Basic Transformations:
+    - Implement translation, scaling, and rotation to manipulate the wireframe.
+    - Smoothly handle zoom in and out using the mouse scroll wheel.
+    - Allow rotation around all three axes (x, y, z) for a better view of the model.
 
-    Enhanced Controls:
-        Smoothly handle zoom in and out using the mouse scroll wheel.
-        Allow rotation around all three axes (x, y, z) for a better view of the model.
-
-    Color Gradients:
-        Apply color gradients based on altitude to enhance the visual representation of the landscape.
-
-    Dynamic Window Resizing:
-        Support for dynamically resizing the window while maintaining the integrity of the wireframe.
-
-    Multi-Map Support:
-        Add the ability to switch between different .fdf maps loaded into the program.
-
-
-Create a wireframe model representation of a 3D landscape by linking various points with line segments (edges).
+- Multi-Map Support:
+    - Add the ability to switch between different .fdf maps loaded into the program.
 
 ## How to run
 
@@ -55,13 +45,3 @@ Create a wireframe model representation of a 3D landscape by linking various poi
      ```bash
     ./fdf ./maps/valid/42.fdf 
     ```
-
-Controls
-
-    Arrow Keys: Move the map (pan).
-    + / -: Zoom in and out.
-    W / A / S / D: Rotate the map around the x and y axes.
-    Q / E: Rotate the map around the z-axis.
-    1 / 2 / 3: Switch between different projection modes.
-    R: Reset the view.
-    ESC: Exit the program.
