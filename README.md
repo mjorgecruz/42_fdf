@@ -46,7 +46,7 @@ The FdF (Fil de Fer) project is a graphics programming exercise where you create
     cd 42_fdf
     make
     ```
-3. Run `./fdf {PATH_TO_MAP}`. The pid of the process should appear on the terminal output.
+3. Run `./fdf {PATH_TO_MAP}`.
      ```bash
     ./fdf ./maps/valid/42.fdf 
     ```
